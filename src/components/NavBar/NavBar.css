@@ -1,0 +1,5 @@
+@import "../../index.css";
+
+.bg-dark{
+  background-color: var(--rose)!important;
+}
