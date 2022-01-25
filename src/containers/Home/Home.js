@@ -21,7 +21,7 @@ export default function Home() {
           <Link to={"/tops-crops"} >
             <img
               className="d-block w-100"
-              src="./img/Banner-tops.png"
+              src="./img/producto-estrella-crop.png"
               alt="Second slide"
             />
           </Link>
@@ -30,7 +30,7 @@ export default function Home() {
           <Link to={"/shorts-calzas"} >
             <img
               className="d-block w-100"
-              src="./img/Banner-short.png"
+              src="./img/producto-estrella-calzas.png"
               alt="Third slide"
             />
           </Link>
