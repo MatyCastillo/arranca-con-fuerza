@@ -1,0 +1,152 @@
+[
+  {
+    "nombre": "Brasil",
+    "escudo": "./assets/img/brasil.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "13-JUN",
+        "rival": "Venezuela",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "17-JUN",
+        "rival": "Perú",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "23-JUN",
+        "rival": "Colombia",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "27-JUN",
+        "rival": "Ecuador",
+        "horario": "18.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Colombia",
+    "escudo": "./assets/img/colombia.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "13-JUN",
+        "rival": "Ecuador",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "17-JUN",
+        "rival": "Venezuela",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "20-JUN",
+        "rival": "Perú",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "23-JUN",
+        "rival": "Brasil",
+        "horario": "21.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Ecuador",
+    "escudo": "./assets/img/ecuador.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "13-JUN",
+        "rival": "Colombia",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "17-JUN",
+        "rival": "Venezuela",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "20-JUN",
+        "rival": "Perú",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "27-JUN",
+        "rival": "Brasil",
+        "horario": "18.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Perú",
+    "escudo": "./assets/img/peru.png",
+    "partidos": [
+      {
+        "jornada": 2,
+        "fecha": "17-JUN",
+        "rival": "Brasil",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "20-JUN",
+        "rival": "Colombia",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "23-JUN",
+        "rival": "Ecuador",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "27-JUN",
+        "rival": "Venezuela",
+        "horario": "18.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Venezuela",
+    "escudo": "./assets/img/venezuela.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "13-JUN",
+        "rival": "Brasil",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "18-JUN",
+        "rival": "Colombia",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "21-JUN",
+        "rival": "Ecuador",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "28-JUN",
+        "rival": "Perú",
+        "horario": "18.00 hs"
+      }
+    ]
+  }
+]

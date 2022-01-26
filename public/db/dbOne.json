@@ -1,0 +1,152 @@
+[
+  {
+    "nombre": "Argentina",
+    "escudo": "./assets/img/argentina.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "14-JUN",
+        "rival": "Chile",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "18-JUN",
+        "rival": "Uruguay",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "21-JUN",
+        "rival": "Paraguay",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "28-JUN",
+        "rival": "Bolivia",
+        "horario": "21.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Bolivia",
+    "escudo": "./assets/img/bolivia.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "14-JUN",
+        "rival": "Paraguay",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "18-JUN",
+        "rival": "Chile",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "21-JUN",
+        "rival": "Uruguay",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "28-JUN",
+        "rival": "Argentina",
+        "horario": "21.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Chile",
+    "escudo": "./assets/img/chile.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "14-JUN",
+        "rival": "Argentina",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 2,
+        "fecha": "18-JUN",
+        "rival": "Bolivia",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "21-JUN",
+        "rival": "Uruguay",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "24-JUN",
+        "rival": "Paraguay",
+        "horario": "21.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Paraguay",
+    "escudo": "./assets/img/paraguay.png",
+    "partidos": [
+      {
+        "jornada": 1,
+        "fecha": "14-JUN",
+        "rival": "Bolivia",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "21-JUN",
+        "rival": "Argentina",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "24-JUN",
+        "rival": "Chile",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "28-JUN",
+        "rival": "Uruguay",
+        "horario": "21.00 hs"
+      }
+    ]
+  },
+  {
+    "nombre": "Uruguay",
+    "escudo": "./assets/img/uruguay.png",
+    "partidos": [
+      {
+        "jornada": 2,
+        "fecha": "18-JUN",
+        "rival": "Argentina",
+        "horario": "21.00 hs"
+      },
+      {
+        "jornada": 3,
+        "fecha": "21-JUN",
+        "rival": "Chile",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 4,
+        "fecha": "24-JUN",
+        "rival": "Bolivia",
+        "horario": "18.00 hs"
+      },
+      {
+        "jornada": 5,
+        "fecha": "28-JUN",
+        "rival": "Paraguay",
+        "horario": "21.00 hs"
+      }
+    ]
+  }
+]
