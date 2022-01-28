@@ -36,6 +36,11 @@ export default function Home() {
           </Link>
         </Carousel.Item>
       </Carousel>
+      {/* Cards productos estrella
+        info telas
+        imagen nosotros
+        imagen pagos
+      */}
     </div>
   );
 }

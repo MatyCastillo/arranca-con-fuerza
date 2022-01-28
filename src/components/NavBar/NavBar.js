@@ -6,8 +6,9 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <Navbar bg="dark" expand="false">
+    <Navbar bg="dark" expand="false" sticky="top">
       <Container>
+        <Navbar.Brand href="#home">Arrancá con Fuerza</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

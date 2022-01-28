@@ -13,7 +13,7 @@ export default function NotFound() {
         <span>4</span>
       </section>
       <div className="link-container">
-        <Link to={"/"} className="more-link">Visit the original article</Link>
+        <Link to={"/"} className="more-link">Volver al inicio</Link>
       </div>
     </div>
   );
