@@ -3,3 +3,41 @@
 .bg-dark{
   background-color: var(--rose)!important;
 }
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
+  color: #fff;
+  font-family: "Metropolis-Regular";
+  font-size: 2rem;
+  position: absolute;
+  left: 40%;
+  top: 2px;
+}
+
+.navbar-dark .navbar-toggler{
+  color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0);
+  position: relative;
+  left: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  font-family: "Metropolis-Regular";
+}
+
+@media (max-width: 768px) {
+  .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
+    font-size: 1.5rem;
+    position: absolute;
+    left: 38%;
+    top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
+    font-size: 1.25rem;
+    position: absolute;
+    left: 33%;
+    top: 7px;
+  }
+}

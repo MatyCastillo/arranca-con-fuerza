@@ -6,18 +6,18 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <Navbar bg="dark" expand="false" sticky="top">
-      <Container>
+    <Navbar bg="dark" variant="dark" expand="false" sticky="top">
+      {/* <Container> */}
         <Navbar.Brand href="#home">Arrancá con Fuerza</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-5">
             <Link to={"/"} className='nav-link'>Inicio</Link>
             <Link to={"/tops-crops"} className='nav-link'>Tops y Crop Tops</Link>
             <Link to={"/shorts-calzas"} className='nav-link'>Shorts y Calzas</Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      {/* </Container> */}
     </Navbar>
   );
 }
