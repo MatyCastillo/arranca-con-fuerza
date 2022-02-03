@@ -1,46 +1,35 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
+import CardHome from '../../components/CardHome/CardHome';
+import { Container, Image, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from "react-router-dom";
 
 export default function Home() {
-  const whatsAppLink = "https://wa.me/5491144979179?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre"
+  const Calzas = "./img/CardHomeSeccionShorts.png";
+  const Crop = "./img/CardHomeSeccionTops.png";
+  const Nosotros = "./img/nosotros-temp.png";
+  const Pagos = "./img/info-pagos-envios.png";
+  const TelaDry = "./img/Banner-tela-dry.png";
+  const TelaSuplex = "./img/Banner-tela-Suplex.png";
+
   return (
     <div>
-      <Carousel>
-        <Carousel.Item>
-          <a href={whatsAppLink} rel="noopener noreferrer" target="_blank">
-            <img
-              className="d-block w-100"
-              src="./img/Banner-central.png"
-              alt="First slide"
-            />
-          </a>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Link to={"/tops-crops"} >
-            <img
-              className="d-block w-100"
-              src="./img/producto-estrella-crop.jpg"
-              alt="Second slide"
-            />
-          </Link>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Link to={"/shorts-calzas"} >
-            <img
-              className="d-block w-100"
-              src="./img/producto-estrella-calzas.jpg"
-              alt="Third slide"
-            />
-          </Link>
-        </Carousel.Item>
-      </Carousel>
-      {/* Cards productos estrella
-        info telas
-        imagen nosotros
-        imagen pagos
+      <HomeCarousel />
+      <Container className="mt-4 mb-4">
+        <Row xs={2} className="g-4">
+          <CardHome picture={Crop} link={"/tops-crops"} />
+          <CardHome picture={Calzas} link={"/shorts-calzas"} />
+        </Row>
+      </Container>
+      <Image src={TelaDry} alt="Tela Dry" fluid="true"/>
+      <Image src={TelaSuplex} alt="Tela Suplex" fluid="true"/>
+      {/* Falta:
+        Nombre en las cards productos estrella
+        Clickeable en info telas para mostrar detalle como un collapse horizontal
       */}
+
+      <Image src={Nosotros} alt="Sobre Nosotros" fluid="true"/>
+      <Image src={Pagos} alt="Formas de Pago" fluid="true"/>
     </div>
   );
 }
