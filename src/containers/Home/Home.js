@@ -21,15 +21,15 @@ export default function Home() {
           <CardHome picture={Calzas} link={"/shorts-calzas"} />
         </Row>
       </Container>
-      <Image src={TelaDry} alt="Tela Dry" fluid="true"/>
-      <Image src={TelaSuplex} alt="Tela Suplex" fluid="true"/>
+      <Image src={TelaDry} alt="Tela Dry" fluid="true" style={{width: "100%"}} />
+      <Image src={TelaSuplex} alt="Tela Suplex" fluid="true" style={{width: "100%"}}/>
       {/* Falta:
         Nombre en las cards productos estrella
         Clickeable en info telas para mostrar detalle como un collapse horizontal
       */}
 
-      <Image src={Nosotros} alt="Sobre Nosotros" fluid="true"/>
-      <Image src={Pagos} alt="Formas de Pago" fluid="true"/>
+      <Image src={Nosotros} alt="Sobre Nosotros" fluid="true" style={{width: "100%"}}/>
+      <Image src={Pagos} alt="Formas de Pago" fluid="true" style={{width: "100%"}}/>
     </div>
   );
 }

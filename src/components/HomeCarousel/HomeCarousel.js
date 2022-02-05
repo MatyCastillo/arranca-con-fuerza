@@ -20,7 +20,7 @@ export default function HomeCarousel() {
         <Link to={"/tops-crops"} >
           <img
             className="d-block w-100"
-            src="./img/producto-estrella-crop.jpg"
+            src="./img/producto-estrella-crop.png"
             alt="Second slide"
           />
         </Link>
@@ -29,7 +29,7 @@ export default function HomeCarousel() {
         <Link to={"/shorts-calzas"} >
           <img
             className="d-block w-100"
-            src="./img/producto-estrella-calzas.jpg"
+            src="./img/producto-estrella-calzas.png"
             alt="Third slide"
           />
         </Link>
