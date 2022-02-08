@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "description": "Crop top sublimado con calado que se puede usar en el frente o en la espalda",
+    "imagen": "./img/productos/tops/Producto-Crop-1.png",
+    "colores": [ "sublimado" ],
+    "talles": [ 1, 2, 3, 4, 5 ]
+  },
+  {
+    "id": 2,
+    "description": "Top tricot flúor con abertura para agregar push up",
+    "imagen": "./img/productos/tops/Producto-Crop-2.png",
+    "colores": [ "turquesa", "fucsia", "negro", "lila" ],
+    "talles": [ 1, 2, 3, 4, 5 ]
+  },
+  {
+    "id": 3,
+    "description": "Crop top con bretel regulable",
+    "imagen": "./img/productos/tops/Producto-Crop-3.png",
+    "colores": [ "sublimado", "negro" ],
+    "talles": [ 1, 2, 3 ]
+  },
+  {
+    "id": 4,
+    "description": "Top con push up",
+    "imagen": "./img/productos/tops/Producto-Crop-4.png",
+    "colores": [ "rosa", "negro" ],
+    "talles": [ 1, 2 ]
+  },
+  {
+    "id": 5,
+    "description": "Top rubí rosa fluor excelente agarre con detalle de tul",
+    "imagen": "./img/productos/tops/Producto-Crop-5.png",
+    "colores": [ "rosa" ],
+    "talles": [ 1, 2, 3, 4 ]
+  }
+]

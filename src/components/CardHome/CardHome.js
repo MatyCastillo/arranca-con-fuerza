@@ -7,8 +7,8 @@ export default function CardHome({ picture, link }) {
   return (
     <Col>
       <Link to={link} >
-        <Card>
-          <Card.Img variant="top" src={picture} className='rounded fluid' />
+        <Card style={{border: "none"}}>
+          <Card.Img variant="top" src={picture} className='fluid' />
         </Card>
       </Link>
     </Col>
