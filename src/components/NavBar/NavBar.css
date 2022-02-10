@@ -6,10 +6,10 @@
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
   color: #fff;
-  font-family: "Metropolis-Regular";
-  font-size: 2rem;
+  font-family: "Metropolis-SemiBold";
+  font-size: 32px;
   position: absolute;
-  left: 40%;
+  left: 38%;
   top: 2px;
 }
 
@@ -22,22 +22,25 @@
 
 .navbar-dark .navbar-nav .nav-link{
   font-family: "Metropolis-Regular";
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
   .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
-    font-size: 1.5rem;
+    font-size: 16px;
     position: absolute;
-    left: 38%;
-    top: 5px;
+    left: 40%;
+    top: 12px;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    font-family: "Metropolis-Regular";
+    font-size: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover{
-    font-size: 1.25rem;
     position: absolute;
-    left: 33%;
-    top: 7px;
+    left: 36%;
   }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
 import CardHome from '../../components/CardHome/CardHome';
-import { Container, Image, Row } from 'react-bootstrap';
+import { Container, Image, Row, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
   const TelaSuplex = "./img/Banner-tela-Suplex.png";
   const InfoDry = "./img/Tela-Dry-Info.png";
   const InfoSuplex = "./img/Tela-Suplex-Info.png";
-  
+
   const [toggleTelaOne, setToggleTelaOne] = useState(true);
   const [toggleTelaTwo, setToggleTelaTwo] = useState(true);
 
@@ -48,9 +48,26 @@ export default function Home() {
           <Image src={InfoSuplex} alt="Info Tela Suplex" fluid="true" style={{ width: "100%" }} onClick={changeImageTwo} />
         }
       </div>
+      <hr />
+
+      <Carousel indicators={false} >
+        <Carousel.Item>
+          <img className="d-block w-100" src={TelaDry} alt="Imagen Tela Dry" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={InfoDry} alt="Info Tela Dry" />
+        </Carousel.Item>
+      </Carousel>
+      <Carousel indicators={false} >
+        <Carousel.Item>
+          <img className="d-block w-100" src={TelaSuplex} alt="Imagen Tela Suplex" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={InfoSuplex} alt="Info Tela Suplex" />
+        </Carousel.Item>
+      </Carousel>
+      
       {/* Falta:
-        Ajustar tamaño letras navbar
-        Clickeable en info telas: animación de slide.
         Reemplazar "Sobre Nosotros" cuando tengamos la imagen correcta.
       */}
 
