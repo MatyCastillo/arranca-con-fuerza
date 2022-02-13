@@ -1,0 +1,39 @@
+@import "../../index.css";
+
+.product-image{
+  border-radius: 17px;
+}
+
+.product-title-pos{
+  background-color: var(--rose);
+  border-radius: 17px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+.product-title{
+  font-family: "Metropolis-Bold";
+  font-size: 25px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.product-info-icon{
+  max-width: 25px;
+  max-height: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .product-title{
+    font-size: 20px;
+  }
+}

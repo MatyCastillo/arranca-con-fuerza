@@ -1,37 +1,42 @@
 [
   {
     "id": 1,
-    "description": "Crop top sublimado con calado que se puede usar en el frente o en la espalda",
-    "imagen": "./img/productos/tops/Producto-Crop-1.png",
-    "colores": [ "sublimado" ],
-    "talles": [ 1, 2, 3, 4, 5 ]
+    "name": "Crop top Reversible",
+    "description": "Se puede usar en el frente o en la espalda",
+    "image": "./img/productos/tops/Tops-P1.png",
+    "colors": [ "sublimado" ],
+    "sizes": [ 1, 2, 3 ]
   },
   {
     "id": 2,
-    "description": "Top tricot flúor con abertura para agregar push up",
-    "imagen": "./img/productos/tops/Producto-Crop-2.png",
-    "colores": [ "turquesa", "fucsia", "negro", "lila" ],
-    "talles": [ 1, 2, 3, 4, 5 ]
+    "name": "Top tricot flúor",
+    "description": "Con abertura para agregar push up",
+    "image": "./img/productos/tops/Tops-P2.png",
+    "colors": [ "turquesa", "fucsia", "negro", "lila" ],
+    "sizes": [ 1, 2, 3, 4, 5 ]
   },
   {
     "id": 3,
-    "description": "Crop top con bretel regulable",
-    "imagen": "./img/productos/tops/Producto-Crop-3.png",
-    "colores": [ "sublimado", "negro" ],
-    "talles": [ 1, 2, 3 ]
+    "name": "Top con push up",
+    "description": "",
+    "image": "./img/productos/tops/Tops-P3.png",
+    "colors": [ "rosa", "negro" ],
+    "sizes": [ 1, 2 ]
   },
   {
     "id": 4,
-    "description": "Top con push up",
-    "imagen": "./img/productos/tops/Producto-Crop-4.png",
-    "colores": [ "rosa", "negro" ],
-    "talles": [ 1, 2 ]
+    "name": "Top rubí rosa flúor",
+    "description": "Excelente agarre, con detalle de tul",
+    "image": "./img/productos/tops/Tops-P4.png",
+    "colors": [ "rosa" ],
+    "sizes": [ 1, 2 ]
   },
   {
     "id": 5,
-    "description": "Top rubí rosa fluor excelente agarre con detalle de tul",
-    "imagen": "./img/productos/tops/Producto-Crop-5.png",
-    "colores": [ "rosa" ],
-    "talles": [ 1, 2, 3, 4 ]
+    "name": "Top con Push up",
+    "description": "Sublimado o liso negro, con bretel regulable",
+    "image": "./img/productos/tops/Tops-P5.png",
+    "colors": [ "sublimado", "negro" ],
+    "sizes": [ 1, 2, 3 ]
   }
 ]

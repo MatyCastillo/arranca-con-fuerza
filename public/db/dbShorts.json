@@ -1,152 +1,42 @@
 [
   {
-    "nombre": "Brasil",
-    "escudo": "./assets/img/brasil.png",
-    "partidos": [
-      {
-        "jornada": 1,
-        "fecha": "13-JUN",
-        "rival": "Venezuela",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 2,
-        "fecha": "17-JUN",
-        "rival": "Perú",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 4,
-        "fecha": "23-JUN",
-        "rival": "Colombia",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 5,
-        "fecha": "27-JUN",
-        "rival": "Ecuador",
-        "horario": "18.00 hs"
-      }
-    ]
+    "id": 1,
+    "name": "Short suplex con réflex",
+    "description": "Con bolsillos",
+    "image": "./img/productos/shorts/Shorts-P1.png",
+    "colors": [ "turquesa", "fucsia", "negro", "lila" ],
+    "sizes": [ 1, 2, 3, 4 ]
   },
   {
-    "nombre": "Colombia",
-    "escudo": "./assets/img/colombia.png",
-    "partidos": [
-      {
-        "jornada": 1,
-        "fecha": "13-JUN",
-        "rival": "Ecuador",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 2,
-        "fecha": "17-JUN",
-        "rival": "Venezuela",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 3,
-        "fecha": "20-JUN",
-        "rival": "Perú",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 4,
-        "fecha": "23-JUN",
-        "rival": "Brasil",
-        "horario": "21.00 hs"
-      }
-    ]
+    "id": 2,
+    "name": "Short de lycra",
+    "description": "Alta compresión",
+    "image": "./img/productos/shorts/Shorts-P2.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
   },
   {
-    "nombre": "Ecuador",
-    "escudo": "./assets/img/ecuador.png",
-    "partidos": [
-      {
-        "jornada": 1,
-        "fecha": "13-JUN",
-        "rival": "Colombia",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 3,
-        "fecha": "17-JUN",
-        "rival": "Venezuela",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 4,
-        "fecha": "20-JUN",
-        "rival": "Perú",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 5,
-        "fecha": "27-JUN",
-        "rival": "Brasil",
-        "horario": "18.00 hs"
-      }
-    ]
+    "id": 3,
+    "name": "Capri tricot",
+    "description": "Combinado",
+    "image": "./img/productos/shorts/Shorts-P3.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
   },
   {
-    "nombre": "Perú",
-    "escudo": "./assets/img/peru.png",
-    "partidos": [
-      {
-        "jornada": 2,
-        "fecha": "17-JUN",
-        "rival": "Brasil",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 3,
-        "fecha": "20-JUN",
-        "rival": "Colombia",
-        "horario": "21.00 hs"
-      },
-      {
-        "jornada": 4,
-        "fecha": "23-JUN",
-        "rival": "Ecuador",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 5,
-        "fecha": "27-JUN",
-        "rival": "Venezuela",
-        "horario": "18.00 hs"
-      }
-    ]
+    "id": 4,
+    "name": "Calza suplex ultramodeladora",
+    "description": "Con cierres y réflex",
+    "image": "./img/productos/shorts/Shorts-P4.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
   },
   {
-    "nombre": "Venezuela",
-    "escudo": "./assets/img/venezuela.png",
-    "partidos": [
-      {
-        "jornada": 1,
-        "fecha": "13-JUN",
-        "rival": "Brasil",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 2,
-        "fecha": "18-JUN",
-        "rival": "Colombia",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 3,
-        "fecha": "21-JUN",
-        "rival": "Ecuador",
-        "horario": "18.00 hs"
-      },
-      {
-        "jornada": 5,
-        "fecha": "28-JUN",
-        "rival": "Perú",
-        "horario": "18.00 hs"
-      }
-    ]
+    "id": 5,
+    "name": "Leggings tricot",
+    "description": "Con detalle grafado",
+    "image": "./img/productos/shorts/Shorts-P5.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
   }
 ]

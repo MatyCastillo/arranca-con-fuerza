@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardList from "../../components/CardList/CardList";
 
 export default function TopsContainer() {
   const [topsData, setTopsData] = useState([]);
+  const BannerShorts = "./img/Banner-short.png";
+  const BannerTops = "./img/Banner-tops.png";
 
   useEffect(() => {
-    fetch("./db/dbOne.json", {
+    fetch("./db/dbTops.json", {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -18,8 +21,14 @@ export default function TopsContainer() {
   }, []);
 
   return (
-    <Container>
-      <CardList data={topsData} />
-    </Container>
+    <>
+      <Image src={BannerTops} alt="Banner Tops" fluid="true" style={{ width: "100%" }} />
+      <Container className="my-4">
+        <CardList data={topsData} />
+      </Container>
+      <Link to={"/shorts-calzas"} >
+        <Image src={BannerShorts} alt="Banner Shorts" fluid="true" style={{ width: "100%" }} />
+      </Link>
+    </>
   )
 }
