@@ -36,15 +36,16 @@
 // }
 
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import "./Footer.css";
 
 function Footer() {
   return (
     <div className="main-footer">
-      <div className="container">
-        <div className="row">
+      <Container>
+        <Row className="row">
           {/* Column1 */}
-          <div className="col cont">
+          <Col className="col cont">
             <a href="https://www.instagram.com/arrancaconfuerza_cf">
               <img
                 src="./img/icons/icono-instagram-01.png"
@@ -52,10 +53,10 @@ function Footer() {
                 className="icon"
               />
             </a>
-            <p>@arrancaconfuerza_cf</p>
-          </div>
+            <p className="text">@arrancaconfuerza_cf</p>
+          </Col>
           {/* Column2 */}
-          <div className="col cont">
+          <Col className="col cont">
             <a href="https://wa.me/5491144979179?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre">
               <img
                 src="./img/icons/icono-whatsapp-01.png"
@@ -63,10 +64,10 @@ function Footer() {
                 className="icon"
               />
             </a>
-            <p>+541155665587</p>
-          </div>
+            <p className="text">+541155665587</p>
+          </Col>
           {/* Column3 */}
-          <div className="col cont">
+          <Col className=" cont">
             <a href="">
               <img
                 src="./img/icons/icono-email-01.png"
@@ -74,9 +75,9 @@ function Footer() {
                 className="icon"
               />
             </a>
-            <p>@arrancaconfuerza@gmail.com</p>
-          </div>
-        </div>
+            <p className="text">@arrancaconfuerza@gmail.com</p>
+          </Col>
+        </Row>
         <hr />
         <div className="row">
           <p className="col-sm">
@@ -84,7 +85,7 @@ function Footer() {
             derechos reservados
           </p>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
