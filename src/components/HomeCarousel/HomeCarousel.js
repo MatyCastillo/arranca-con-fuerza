@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 export default function HomeCarousel() {
-  const whatsAppLink = "https://wa.me/5491155665587?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre"
+  const whatsAppLink = "https://wa.me/5491167980601?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre"
   return (
     <Carousel>
       <Carousel.Item>

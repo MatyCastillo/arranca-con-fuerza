@@ -1,24 +1,4 @@
-.footer {
-  background-color: black;
-  width: 100%;
-  margin-top: 2rem;
-  position: relative;
-  bottom: 0;
-}
-
-.copyright {
-  text-align: center;
-  color: white;
-  font-size: 12px;
-  padding: 0.5rem 0;
-  margin: 0;
-}
-
-@media screen and (max-width: 576px) {
-  .copyright {
-    font-size: 10px;
-  }
-}
+@import "../../index.css";
 
 .icon {
   width: 4rem;
@@ -40,7 +20,6 @@
   padding-top: 3em;
   position: relative;
   bottom: 0;
-  /*width: 100%;*/
 }
 
 .a {
@@ -51,7 +30,23 @@
   width: 30%;
 }
 
+.footer-bottom{
+  background-color: var(--purple);
+  width: 100%;
+}
+
+.copyright{
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding: .5rem 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 767px) {
+  .main-footer{
+    padding-bottom: 1rem;
+  }
   .text {
     display: none;
   }
@@ -59,7 +54,10 @@
     width: 3rem;
     height: 3rem;
   }
-  .col-sm {
-    font-size: xx-small;
+}
+
+@media screen and (max-width: 576px) {
+  .copyright{
+    font-size: 10px;
   }
 }
