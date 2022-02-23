@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
   const Shorts = "./img/Card-Shorts.png";
   const Tops = "./img/Card-Tops.png";
-  const Nosotros = "./img/nosotros-temp.png";
+  const Nosotros = "./img/Nosotros.jpg";
   const Pagos = "./img/info-pagos-envios.png";
   const TelaDry = "./img/Banner-tela-dry.png";
   const TelaSuplex = "./img/Banner-tela-Suplex.png";
