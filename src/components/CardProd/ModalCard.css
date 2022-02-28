@@ -1,0 +1,64 @@
+@import "../../index.css";
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.modal.enter-done {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.modal.exit {
+  opacity: 0;
+}
+
+.modal-content {
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-200px);
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+}
+
+.modal.enter-done .modal-content {
+  transform: translateY(0);
+}
+
+.image-modal {
+  border-radius: 37px;
+  width: 50%;
+}
+
+.modal-body {
+  z-index: -1;
+  top: -77px;
+  width: 360px;
+  height: 512px;
+  border-radius: 37px 37px 0px 0px;
+  background-color: var(--rose) !important;
+  width: 400px;
+  padding-top: 87px;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-title {
+  font-family: "Metropolis-Bold";
+  font-size: 25px;
+  line-height: 26px;
+  color: #fff;
+}

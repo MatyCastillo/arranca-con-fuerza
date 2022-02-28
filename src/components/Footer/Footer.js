@@ -10,7 +10,11 @@ export default function Footer() {
           <Row className="row">
             {/* Column1 */}
             <Col className="col cont">
-              <a href="https://www.instagram.com/arrancaconfuerza_cf" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://www.instagram.com/arrancaconfuerza_cf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img
                   src="./img/icons/icono-instagram-01.png"
                   alt="Instagram"
@@ -21,7 +25,11 @@ export default function Footer() {
             </Col>
             {/* Column2 */}
             <Col className="col cont">
-              <a href="https://wa.me/5491167980601?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://wa.me/5491167980601?text=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img
                   src="./img/icons/icono-whatsapp-01.png"
                   alt="Whatsapp"
@@ -32,14 +40,18 @@ export default function Footer() {
             </Col>
             {/* Column3 */}
             <Col className="cont">
-              <a href="mailto:arrancaconfuerza.cf@gmail.com?subject=Información&body=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre" rel="noopener noreferrer" target="_blank">
+              <a
+                href="mailto:arrancaconfuerza.cf@gmail.com?subject=Información&body=Hola!%20Me%20interesa%20obtener%20más%20información%20sobre"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <img
                   src="./img/icons/icono-email-01.png"
                   alt="Email"
                   className="icon"
                 />
               </a>
-              <p className="text">@arrancaconfuerza.cf@gmail.com</p>
+              <p className="text">arrancaconfuerza.cf@gmail.com</p>
             </Col>
           </Row>
         </Container>
