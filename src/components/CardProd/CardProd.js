@@ -36,11 +36,12 @@ export default function CardProd({ data }) {
       <ModalCard
         title={data.name}
         image={data.image}
+        sizes={data.sizes}
+        colors={data.colors}
+        description={data.description}
         onClose={() => setShow(false)}
         show={show}
-      >
-        <p>This is modady</p>
-      </ModalCard>
+      ></ModalCard>
     </>
   );
 }

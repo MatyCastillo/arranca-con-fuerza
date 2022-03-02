@@ -40,7 +40,7 @@
 
 .image-modal {
   border-radius: 37px;
-  width: 50%;
+  width: 60%;
 }
 
 .modal-body {
@@ -58,7 +58,112 @@
 
 .modal-title {
   font-family: "Metropolis-Bold";
-  font-size: 25px;
+  font-size: 30px;
   line-height: 26px;
   color: #fff;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+.modal-subtitle {
+  font-family: "Metropolis-Light";
+  font-size: 24px;
+  line-height: 26px;
+  color: #fff;
+  line-height: 36px;
+}
+
+.line-dash {
+  position: absolute;
+  left: 40%;
+  top: 38%;
+  bottom: 100%;
+  border: 1px dashed #ffffff;
+  transform: rotate(90deg);
+  height: 0px;
+  width: 65.18713430487766px;
+}
+
+.circle-verde {
+  display: inline-block;
+  margin: 2px;
+  background: #7fc5dd;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-rosa {
+  display: inline-block;
+  margin: 2px;
+  background: #ffbee1;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-violeta {
+  display: inline-block;
+  margin: 2px;
+  background: #bd5fd4;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-negro {
+  display: inline-block;
+  margin: 2px;
+  background: #403d3f;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-fucsia {
+  display: inline-block;
+  margin: 2px;
+  background: #ff4cad;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-turquesa {
+  display: inline-block;
+  margin: 2px;
+  background: #a9e7e7;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-sublimado {
+  display: inline-block;
+  margin: 2px;
+  background: linear-gradient(
+    to bottom,
+    #ff4cad,
+    orange,
+    #bd5fd4,
+    green,
+    #a9e7e7
+  );
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.modal-description {
+  font-family: "Metropolis-Regular";
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 36px;
+}
+
+.p-footer {
+  margin-left: -15;
+  font-size: 15px;
+  line-height: 20px;
 }
