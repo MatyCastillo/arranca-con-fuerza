@@ -44,8 +44,8 @@ const ModalCard = (props) => {
               <Col className="modal-subtitle">
                 <p style={{ fontFamily: "Metropolis-Bold" }}>Colores</p>
                 <div>
-                  {props.colors.map((color) => (
-                    <div className={`circle-${color}`}></div>
+                  {props.colors.map((color, index) => (
+                    <div key={index} className={`circle-${color}`}></div>
                   ))}
                 </div>
               </Col>
