@@ -26,6 +26,11 @@ const ModalCard = (props) => {
     >
       <div className="modal" onClick={props.onClose}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <a
+            href="#"
+            onClick={props.onClose}
+            className="btn-close shadow-sm bg-white"
+          ></a>
           <Image
             src={props.image}
             alt={props.title}
@@ -72,6 +77,16 @@ const ModalCard = (props) => {
                 <p className="p-footer">• Correo Argentino</p>
               </Col>
             </Row>
+            <div className=" text-center">
+              <a
+                href="https://www.instagram.com/arrancaconfuerza_cf"
+                type="button"
+                className="btn btn-moreInfo"
+              >
+                {" "}
+                MÁS INFO
+              </a>
+            </div>
           </div>
         </div>
       </div>

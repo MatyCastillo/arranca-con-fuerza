@@ -35,7 +35,7 @@
 }
 
 .modal.enter-done .modal-content {
-  transform: translateY(0);
+  transform: translate(0%, 20%);
 }
 
 .image-modal {
@@ -46,11 +46,9 @@
 .modal-body {
   z-index: -1;
   top: -77px;
-  width: 360px;
-  height: 512px;
+  max-width: 400px;
   border-radius: 37px 37px 0px 0px;
   background-color: var(--rose) !important;
-  width: 400px;
   padding-top: 87px;
   align-items: center;
   justify-content: center;
@@ -166,4 +164,32 @@
   margin-left: -15;
   font-size: 15px;
   line-height: 20px;
+}
+
+.btn-close {
+  text-decoration: none;
+  justify-content: right;
+}
+
+@media screen and (min-width: 767px) {
+  .modal-body {
+    width: 400px;
+  }
+}
+
+.btn-close {
+  position: absolute;
+  right: 25%;
+  top: 1%;
+}
+
+.btn-moreInfo {
+  background-color: var(--purple) !important;
+  border-radius: 17px;
+  width: 237px;
+  font-family: "Metropolis-Bold";
+  color: #fff;
+  box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  font-size: 20px;
 }
