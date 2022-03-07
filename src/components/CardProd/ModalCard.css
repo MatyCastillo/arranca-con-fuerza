@@ -35,7 +35,7 @@
 }
 
 .modal.enter-done .modal-content {
-  transform: translate(0%, 20%);
+  transform: translate(0%, 5%);
 }
 
 .image-modal {
@@ -177,6 +177,12 @@
   }
 }
 
+@media screen and (max-width: 1800px) {
+  .modal.enter-done .modal-content {
+    transform: translate(0%, 15%);
+  }
+}
+
 .btn-close {
   position: absolute;
   right: 25%;
@@ -191,5 +197,6 @@
   color: #fff;
   box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
+  margin-top: 20px;
   font-size: 20px;
 }
