@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Card, Image, Modal } from "react-bootstrap";
+import { Col, Card, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CardProd.css";
 import ModalCard from "./ModalCard.js";
@@ -8,8 +8,6 @@ export default function CardProd({ data }) {
   const arrowIcon = "./img/icons/arrows-up16.png";
 
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <>
