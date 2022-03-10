@@ -6,5 +6,5 @@ Design was provided by a fellow UX Designer through [Figma](https://www.figma.co
 Being a static page it is basically aimed for users to get an overview of clients product and then contact via social networks.
 
 ## Team
-- UX Designer: Mauro Garcia.
-- Developers: Ariel Molho & Matias Castillo
+- UX Designer: [Mauro Garcia](https://www.linkedin.com/in/mauro-garcia-2b978912b/).
+- Developers: [Ariel Molho](https://www.linkedin.com/in/arielmolho/) & [Matias Castillo](https://www.linkedin.com/in/a-matias-castillo/).
