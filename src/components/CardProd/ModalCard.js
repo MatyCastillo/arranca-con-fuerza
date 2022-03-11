@@ -82,6 +82,8 @@ const ModalCard = (props) => {
                 href="https://www.instagram.com/arrancaconfuerza_cf"
                 type="button"
                 className="btn btn-moreInfo"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 {" "}
                 MÁS INFO
