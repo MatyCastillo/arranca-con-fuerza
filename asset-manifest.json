@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/arranca-con-fuerza/static/css/main.1e120bcf.css",
+    "main.js": "/arranca-con-fuerza/static/js/main.cd14c7ff.js",
+    "static/js/787.7197ac99.chunk.js": "/arranca-con-fuerza/static/js/787.7197ac99.chunk.js",
+    "static/media/Fondo-footer.png": "/arranca-con-fuerza/static/media/Fondo-footer.690ebfed99368bdeb201.png",
+    "static/media/Metropolis-ExtraBoldItalic.otf": "/arranca-con-fuerza/static/media/Metropolis-ExtraBoldItalic.a634192ed7046f830104.otf",
+    "static/media/Metropolis-Bold.otf": "/arranca-con-fuerza/static/media/Metropolis-Bold.c5e04fafcff6fc79cd76.otf",
+    "static/media/Metropolis-SemiBold.otf": "/arranca-con-fuerza/static/media/Metropolis-SemiBold.5e856013947c22fbcdf4.otf",
+    "static/media/Metropolis-Light.otf": "/arranca-con-fuerza/static/media/Metropolis-Light.5813789eac597edf6ef4.otf",
+    "static/media/Metropolis-Regular.otf": "/arranca-con-fuerza/static/media/Metropolis-Regular.67a1988d7b65b0aaa16d.otf",
+    "index.html": "/arranca-con-fuerza/index.html",
+    "main.1e120bcf.css.map": "/arranca-con-fuerza/static/css/main.1e120bcf.css.map",
+    "main.cd14c7ff.js.map": "/arranca-con-fuerza/static/js/main.cd14c7ff.js.map",
+    "787.7197ac99.chunk.js.map": "/arranca-con-fuerza/static/js/787.7197ac99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e120bcf.css",
+    "static/js/main.cd14c7ff.js"
+  ]
+}

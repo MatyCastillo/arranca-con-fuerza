@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Short suplex con réflex",
+    "description": "Con bolsillos",
+    "image": "./img/productos/shorts/Shorts-P1.png",
+    "colors": [ "turquesa", "fucsia", "negro", "lila" ],
+    "sizes": [ 1, 2, 3, 4 ]
+  },
+  {
+    "id": 2,
+    "name": "Short de lycra",
+    "description": "Alta compresión",
+    "image": "./img/productos/shorts/Shorts-P2.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
+  },
+  {
+    "id": 3,
+    "name": "Capri tricot",
+    "description": "Combinado",
+    "image": "./img/productos/shorts/Shorts-P3.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
+  },
+  {
+    "id": 4,
+    "name": "Calza suplex ultramodeladora",
+    "description": "Con cierres y réflex",
+    "image": "./img/productos/shorts/Shorts-P4.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
+  },
+  {
+    "id": 5,
+    "name": "Leggings tricot",
+    "description": "Con detalle grafado",
+    "image": "./img/productos/shorts/Shorts-P5.png",
+    "colors": [ "negro" ],
+    "sizes": [ 1, 2, 3, 4 ]
+  }
+]

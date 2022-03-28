@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Crop top Reversible",
+    "description": "Se puede usar en el frente o en la espalda",
+    "image": "./img/productos/tops/Tops-P1.png",
+    "colors": [ "sublimado" ],
+    "sizes": [ 1, 2, 3 ]
+  },
+  {
+    "id": 2,
+    "name": "Top tricot flúor",
+    "description": "Con abertura para agregar push up",
+    "image": "./img/productos/tops/Tops-P2.png",
+    "colors": [ "turquesa", "fucsia", "negro", "lila" ],
+    "sizes": [ 1, 2, 3, 4, 5 ]
+  },
+  {
+    "id": 3,
+    "name": "Top con push up",
+    "description": "",
+    "image": "./img/productos/tops/Tops-P3.png",
+    "colors": [ "rosa", "negro" ],
+    "sizes": [ 1, 2 ]
+  },
+  {
+    "id": 4,
+    "name": "Top rubí rosa flúor",
+    "description": "Excelente agarre, con detalle de tul",
+    "image": "./img/productos/tops/Tops-P4.png",
+    "colors": [ "rosa" ],
+    "sizes": [ 1, 2 ]
+  },
+  {
+    "id": 5,
+    "name": "Top con Push up",
+    "description": "Sublimado o liso negro, con bretel regulable",
+    "image": "./img/productos/tops/Tops-P5.png",
+    "colors": [ "sublimado", "negro" ],
+    "sizes": [ 1, 2, 3 ]
+  }
+]
